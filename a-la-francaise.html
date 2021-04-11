@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="fr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.scss">
+        <title>À la francaise - Oh My Food</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/395d93c536.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <!-- BODY -->
+    <body>
+        <!-- HEADER  (LOGO + BOUTON RETOUR ACCUEIL) -->
+        <header class="header header--withBackArrow">
+            <div class="restaurantContainer">
+              <a href="./index.html"><i class="fas fa-arrow-left header__arrow"></i></a>
+              <img 
+              class="headerLogo"
+              src="Images/logo/ohmyfood@2x.svg"
+              alt="Logo Oh My Food"
+              >
+            </div>
+        </header>
+        
+        <!-- PHOTO PRINCIPALE (hero) -->
+        <img
+        class="menuRestaurantImg" 
+        src="Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+        alt=""
+        >
+        
+        <!-- SECTION PRINCIPALE -->
+        <main class="menu container">
+            <!-- DESCRIPTION RESTAURANT -->
+            <header class="menu__header">
+                <h2 class="menuRestaurantTitle">À la francaise</h2>
+                <button class="menuButton">
+                    <i class="menu__like menu__like--noBg far fa-heart fa-2x"></i>
+                    <i class="menu__like menu__like--bg fas fa-heart fa-2x"></i>
+                </button>
+            </header>
+        
+            <!-- DIVISION MENU -->
+            <div class="submenus">
+                
+                <!-- SECTION ENTRÉES-->
+                <section class="submenu">
+                    <h3 class="submenuTitle">Entrées</h3>
+                    
+                    <!-- ENTRÉES - ESCARGOTS -->
+                    <section class="menuItem delay-0">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Tartare de poulpe acidulé</h4>
+                            <p class="menuItemPriceText">Aux zestes d'orange</p>
+                        </header>
+                        <div class="menuItemPrice">25€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ENTRÉES - FOIE GRAS -->
+                    <section class="menuItem delay-01">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Velouté de légumes d'antan</h4>
+                            <p class="menuItemPriceText">Carotte, panais, topinambour</p>
+                        </header>
+                        <div class="menuItemPrice">35€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ENTRÉES - OEUF AU PLAT -->
+                    <section class="menuItem delay-02">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Soupe à l'oignon</h4>
+                            <p class="menuItemPriceText">Revisitée</p>
+                        </header>
+                        <div class="menuItemPrice">20€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
+          
+                <!-- SECTION PLATS -->
+                <section class="submenu">
+                    <h3 class="submenuTitle">Plats</h3>
+
+                    <!-- PLATS - FILET DE BOEUFS -->
+                    <section class="menuItem delay-03">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Coquilles Saint-Jacques</h4>
+                            <p class="menuItemPriceText">Accompagnées d'une purée de panais</p>
+                        </header>
+                        <div class="menuItemPrice">40€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- PLATS - PARMENTIER DE BOEUF -->
+                    <section class="menuItem delay-04">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Magret de canard</h4>
+                            <p class="menuItemPriceText">Et parmentier de pommes de terre</p>
+                        </header>
+                        <div class="menuItemPrice">35€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- PLATS - FILET DE TURBOT -->
+                    <section class="menuItem delay-05">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Pigeonneau d’Ille-et-Vilaine</h4>
+                            <p class="menuItemPriceText">Sur son lit de gnocchis aux légumes</p>
+                        </header>
+                        <div class="menuItemPrice">44€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
+
+                <!-- SECTION DESSERTS -->
+                <section class="submenu">
+                    <h3 class="submenuTitle">Desserts</h3>
+
+                    <!-- DESSERTS - PARIS-BREST -->
+                    <section class="menuItem delay-06">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Pétales de violettes glacés</h4>
+                            <p class="menuItemPriceText">Et purée de noisettes</p>
+                        </header>
+                        <div class="menuItemPrice">18€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>                    
+
+                    <!-- DESSERTS - MACARON CHOCOLAT -->
+                    <section class="menuItem delay-07">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Fondant au chocolat</h4>
+                            <p class="menuItemPriceText">Revisité</p>
+                        </header>
+                        <div class="menuItemPrice">22€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- DESSERTS - MOUSSE CHOCOLAT -->
+                    <section class="menuItem delay-08">
+                        <header class="menuItemHeader">
+                            <h4 class="menuItemTitle">Millefeuille croustillant</h4>
+                            <p class="menuItemPriceText">Myrtilles et pâte d’amande</p>
+                        </header>
+                        <div class="menuItemPrice">23€</div>
+                        <div class="menuItemConfirmation">
+                            <div class="menuItemWrapIcon">
+                                <i class="menuItemPriceIcon fas fa-check"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                </section>
+                
+            </div>
+            
+            <!-- BOUTON COMMANDER -->        
+            <div class="wrapBtn">
+                <button class="commandBtn" href="javascript:void(0)" onclick="alert('en construction');">Commander</button>
+            </div>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <img 
+                class="footerLogo"
+                src="Images/logo/ohmyfood@2xWhite.svg"
+                alt="Logo Oh My Food"
+                >
+                <ul class="footerList">
+                    <li class="footerListElt">
+                        <a class="footerLink" href="javascript:void(0)" onclick="alert('en construction');"><i class="footerIcon fas fa-utensils"></i>Proposer un restaurant</a>
+                    </li>
+                    <li class="footerListElt">
+                        <a class="footerLink" href="javascript:void(0)" onclick="alert('en construction');"><i class="footerIcon fas fa-hands-helping"></i>Devenir partenaire</a>
+                    </li>
+                    <li class="footerListElt">
+                        <a class="footerLink" href="javascript:void(0)" onclick="alert('en construction');">Mentions légales</a>
+                    </li>
+                    <li class="footerListElt">
+                        <a class="footerLink" href="mailto:contact@ohmyfood.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+</html>
